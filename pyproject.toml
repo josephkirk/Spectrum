@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "spectrum"
+version = "0.1.0"
+description = ""
+authors = ["Nguyen Phi Hung <josephkirk.art@gmail>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+python-nomad = "^1.4.1"
+rethinkdb = "^2.4.8"
+fastapi = "^0.68.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+pytest-black = "^0.3.12"
+pytest = "^6.2.5"
+pytest-pythonpath = "^0.7.3"
+pytest-cov = "^2.12.1"
+rich = "^10.11.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
